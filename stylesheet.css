@@ -1,3 +1,56 @@
+body{
+    margin: 0;
+}
 p.center{
     text-align: center;
 }
+
+div.kotak-header{
+    //background-color: red;
+    width: 100%;
+    height: 100px;
+    //position: fixed;
+}
+
+div.fixed{
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+div.kotak-header ul{
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+div.kotak-header li{
+    float: left;
+}
+
+div.kotak-header li a{
+    padding: 25px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+div.kotak-header li a:hover{
+   background-color: rgb(20, 192, 192);
+}
+
+div.kotak-footer{
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+span.identitas-footer{
+    font-size: 20px;
+    
+}
+
