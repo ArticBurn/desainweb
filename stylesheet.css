@@ -58,6 +58,12 @@ div.kotak-footer{
     display: flex;
     justify-content: center;
 }
+div.font{
+    margin: 50px;
+    text-align: left;
+}
+
+
 
 span.identitas-footer{
     font-size: 20px;
