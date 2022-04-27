@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    background-color: #bde7d1;
+    font-family: 'Roboto', sans-serif;
 }
 p.center{
     text-align: center;
@@ -9,7 +11,7 @@ div.kotak-header{
     //background-color: red;
     width: 100%;
     height: 100px;
-    //position: fixed;
+    position: relative;
 }
 
 div.fixed{
@@ -21,12 +23,18 @@ div.fixed{
 div.kotak-header ul{
     list-style: none;
     margin: 0;
+    display: block;
     overflow: hidden;
-    background-color: aqua;
+    background-color: #68D89B;
+    padding-inline-start: 50px;
+    padding-inline-end: 50px;
 }
 
-div.kotak-header li{
+div.kotak-header ul.menu li{
     float: left;
+}
+div.kotak-header ul.menu li.right{
+    float: right;
 }
 
 div.kotak-header li a{
@@ -34,16 +42,18 @@ div.kotak-header li a{
     text-decoration: none;
     text-align: center;
     display: block;
+    color: black;
 }
 
 div.kotak-header li a:hover{
-   background-color: rgb(20, 192, 192);
+   background-color: #4F9D69;
+   color: white;
 }
-
+ 
 div.kotak-footer{
     width: 100%;
     height: 50px;
-    background-color: aquamarine;
+    background-color: #68D89B;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -51,6 +61,5 @@ div.kotak-footer{
 
 span.identitas-footer{
     font-size: 20px;
-    
 }
 
