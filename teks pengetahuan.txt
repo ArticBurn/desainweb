@@ -1,0 +1,46 @@
+./TITIK=class
+#/PAGAR=id
+:/TITIK 2=type
+
+"""TOP=atas,BOTTOM=bawah,RIGHT=kanan,LEFT=kiri,""""
+
+""CLASS YANG TIDAK DI BERI KETERANGAN BERARTI ADA DI bootstrap""
+
+JUMBOTRON=digunakan untuk memberi blok 
+
+CONTAINER=sebuah wadah agar tampilan tetap responsive(full)
+
+CONTAINER-FLUID=sebuah wadah agar tampilan tetap responsive(80%)
+
+ROW=memberi wadah/kolom
+
+HR=memberi batas dengan garis
+
+B=membuat teks menjadi tebal/bold
+
+FORM=memberitahu bahwa didalam berisi forum
+
+FORM-GROUP=memberitahu bahwa form ini adalah group <.........>
+
+PLACEHOLDER=memberi text mati dalam kolom
+
+COL-OFFSET=memberi kolom kosong
+
+TEXTAREA=memberi tabel dengan tulisan banyak
+
+ROWS=tnggi text area
+
+NAVBAR-INVERSR=MENGUBAH WARNA NAVBAR MENJADI GELAP
+
+NAVBAR-DEFAULT=NAVBAR BIASA/PUTIH
+
+NAVBAR-VIXED-TOP=MEMBUAT NAVBAR AGAR TETAP DIAM DI ATAS
+
+NAVBAR-COLLAPSE=agar membuat tampilan navbar tetap meskipun dibuka di hp
+
+TOGGLE-NAVIGATION=jika web di bukaa di hp navbar berbentuk navigasi strip3
+
+batas kolom pada bootstrap ada 12
+
+macam2 ukuran responsive kolom di bootstrap=XS=<768px,SM=>768px,MD=>992px,LG=1200px
+https://code.jquery.com/jquery-1.12.4.min.js
