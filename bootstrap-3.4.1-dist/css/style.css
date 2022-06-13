@@ -49,6 +49,8 @@ section.about{
    
 }
 
+/*=======================================PORTOFOLIO===================================*/
+
 section.portfolio{
     background-color: #eee;
     min-height: 600px;
@@ -59,6 +61,11 @@ section.portfolio{
     color: #eaeaea;
    
 }
+
+.porto {
+    margin-bottom: 50px;
+}
+
 
 .contact{
     min-height: 800px;
@@ -80,6 +87,7 @@ footer p{
     padding-top: 30px;
     color: beige;
 }
+
 
 
 
