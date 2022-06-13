@@ -5,6 +5,7 @@ body{
 }
 p.center{
     text-align: center;
+    display: flex;
 }
 
 div.kotak-header{
